@@ -1,2 +1,0 @@
-# StudentPortal
-Interview Task
