@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entity\" />
+    <None Remove="Entity\Student\" />
+    <None Remove="Entity\Teacher\" />
+    <None Remove="Entity\Course\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
+    <Folder Include="Entity\Student\" />
+    <Folder Include="Entity\Teacher\" />
+    <Folder Include="Entity\Course\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+  </ItemGroup>
+</Project>

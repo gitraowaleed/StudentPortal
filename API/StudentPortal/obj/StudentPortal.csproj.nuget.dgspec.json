@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal/StudentPortal.csproj": {}
+  },
+  "projects": {
+    "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj",
+        "projectName": "StudentPortal.Entity",
+        "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj",
+        "packagesPath": "/Users/amaan/.nuget/packages/",
+        "outputPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amaan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj",
+        "projectName": "StudentPortal.Models",
+        "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj",
+        "packagesPath": "/Users/amaan/.nuget/packages/",
+        "outputPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amaan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/StudentPortal.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/StudentPortal.Services.csproj",
+        "projectName": "StudentPortal.Services",
+        "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/StudentPortal.Services.csproj",
+        "packagesPath": "/Users/amaan/.nuget/packages/",
+        "outputPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amaan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj": {
+                "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj"
+              },
+              "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj": {
+                "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal/StudentPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal/StudentPortal.csproj",
+        "projectName": "StudentPortal",
+        "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal/StudentPortal.csproj",
+        "packagesPath": "/Users/amaan/.nuget/packages/",
+        "outputPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amaan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj": {
+                "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Entity/StudentPortal.Entity.csproj"
+              },
+              "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj": {
+                "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Models/StudentPortal.Models.csproj"
+              },
+              "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/StudentPortal.Services.csproj": {
+                "projectPath": "/Users/amaan/BuildWork/Interview/StudentPortal/API/StudentPortal.Services/StudentPortal.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
